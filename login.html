@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+            /* background: rgb(176, 252, 176); */
+            background: url(plantations-of-india.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            background-attachment: fixed;
+        }
+
+        #mainbox{
+            width: 800px;
+            height: 550px;
+            margin: 100px auto;
+            /* background: black; */
+            box-shadow: 5px 5px 5px 2px rgba(0, 0, 0,0.3);
+            border-radius: 30px
+        }
+
+        #leftbox{
+            width: 350px;
+            height: 500px;
+            padding: 25px;
+            background: rgba(255,255,255,0.5);
+            float: left;
+            border-radius: 30px 0px 0px 30px;
+        }
+        #leftbox img{
+            width: 40px;
+            height: 40px;
+            margin: 10px;
+            border: lightgray;
+            border-radius: 50%;
+            background: rgb(213, 213, 213);
+        }
+        #leftbox p{
+            color: grey;
+        }
+        #leftbox input{
+            padding: 10px;
+            border-radius: 20px;
+            /* background: lightgrey; */
+            color: darkgrey;
+        }
+        #leftbox h3{
+            margin: auto;
+            padding: 10px 50px;
+            max-width: min-content;
+            border-radius: 10px;
+            background: #08BF85;
+            color: white;
+        }
+
+        #rightbox{
+            width: 350px;
+            height: 500px;
+            padding: 25px;
+            color: white;
+            background: linear-gradient(90deg, rgba(140,255,140,1) 0%, #08BF85 100%);
+            float: left;
+            border-radius: 0px 30px 30px 0px;
+            text-align: center;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div id="mainbox">
+        <div id="leftbox">
+            <h1>Login</h1>
+            <br>
+            <a href="http://facebook.com"><img src="fb.gif" alt=""></a>
+            <a href="http://instagram.com"><img src="insta.gif" alt=""></a>
+            <a href="http://twitter.com"><img src="twitter.gif" alt=""></a>
+            <a href="http://linkedin.com"><img src="linkedin.gif" alt=""></a>
+            <br>
+            <p>or use your account</p>
+            <form action="" method="post">
+                <input type="text" name="username" placeholder="Username">
+                <br>
+                <br>
+                <input type="password" name="password" placeholder="Password">
+            </form>
+            <br>
+            <h3>Login</h3>
+            <br>
+            <p><a href="#">forgot yor password?</a></p>
+        </div>
+        <div id="rightbox">
+            <h1>Welcome</h1>
+            <br>
+            <h2>Welcome to the chaiify.com,
+                We try to provide best quality tea of different flavours from the different parts of india</h2>
+        </div>
+    </div>
+</body>
+</html>
